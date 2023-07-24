@@ -5,10 +5,9 @@ const NavBar = () => {
         <div className={styles.navbar_container}>
             <h2>Johan Mejia</h2>
             <div className={styles.navbar_items}>
-                <a>About</a>
-                <a>Skills</a>
-                <a>Projects</a>
-                <a>Contact</a>
+                <a href='#skills'>Skills</a>
+                <a href='#projects'>Projects</a>
+                <a href='#contact'>Contact</a>
             </div>
         </div>
     )

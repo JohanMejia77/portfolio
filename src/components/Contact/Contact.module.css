@@ -1,0 +1,36 @@
+.contact_container{
+    width: 100%;
+    padding: 2rem 2rem;
+    height: 12rem;
+}
+.contact_container h2{
+    margin-bottom: 1rem;
+}
+.contact_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+.contact_item a{
+    all: unset;
+}
+@media (min-width: 768px){
+    .contact_container{
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+    .contact_container h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .contact_items{
+        align-items: center;
+        height: 80%;
+    }
+}

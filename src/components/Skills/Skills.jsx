@@ -10,7 +10,7 @@ import git from '../../assets/git.png'
 
 const Skills = () => {
     return (
-        <div className={styles.skills_container}>
+        <div className={styles.skills_container} id='skills'>
             <h2>Skills</h2>
             <div className={styles.skills_items}>
                 <div className={styles.skills_item}>

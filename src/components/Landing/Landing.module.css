@@ -11,3 +11,15 @@
 .landing_container img{
     width: 100%;
 }
+@media (min-width: 768px) {
+    .landing_container{
+        padding: 2rem 2rem;
+        justify-content: space-between;
+    }
+    .landing_container img{
+        width: 60%;
+    }
+    .landing_skills{
+        font-size: 1.2rem;
+    }
+}

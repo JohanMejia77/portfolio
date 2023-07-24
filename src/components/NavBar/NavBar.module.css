@@ -14,3 +14,19 @@
     align-items: center;
     justify-content: space-around;
 }
+.navbar_items a{
+    all: unset;
+    cursor: pointer;
+}
+@media (min-width: 768px){
+    .navbar_container{
+        flex-direction: row;
+    }
+    .navbar_items{
+        width: 30%;
+        justify-content: space-between;
+    }
+    .navbar_items a{
+        font-size: 1.5rem;
+    }
+}

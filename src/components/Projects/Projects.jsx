@@ -8,7 +8,7 @@ import img6 from '../../assets/Captura de pantalla 2023-07-20 a la(s) 8.58.59 p.
 
 const Projects = () => {
     return (
-        <div className={styles.projects_container}>
+        <div className={styles.projects_container} id='projects'>
             <h2>Projects</h2>
             <div className={styles.projects_items}>
                 <div className={styles.projects_item}>
